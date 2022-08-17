@@ -1,1 +1,8 @@
-Custom Startpage
+* Custom Startpage
+This is a super small project just for fun. Making my own startpage for the webbrowser.
+
+Made with html, css and vanilla javascript
+
+[[file:startpage.png][preview]]
+
+ 
