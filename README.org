@@ -1,5 +1,8 @@
+#+title: Startpage
+#+author: Lars M
 * Custom Startpage
 This is a super small project just for fun. Making my own startpage for the webbrowser.
 
-Made with html, css and vanilla javascript
+Made with html, css and vanilla javascript.
+
 #+html: <p align="center"><img src="startpage.png" /></p>
