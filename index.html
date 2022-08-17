@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start page</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+
+    <body>
+        <div id="main_container">
+            <div id="title-container">
+                <div id="title-message">Good morning, Lars!</div>
+                <div class="title-widgets" id="weather-container"><div id="weather"></div></div>
+                <div class="title-widgets" id="date-container">Tirsdag 8. august</div>
+                <div class="title-widgets" id="time-container">13:37</div>
+            </div>
+            <div id="google-container">
+                <div id="google-searchbar">
+		    <form>
+                      <select name="search-engine" class="search" id="search-engine-dropdown">
+                        <option value="google">Google</option>
+                        <option value="ddg">DuckDuckGo</option>
+                        <option value="youtube">YouTube</option>
+                      </select>
+                      <input type="text" id="search-bar" name="searchbar" placeholder="Enter search text here.." autofocus>
+                      <input type="submit" class="search" id="search-button" value="Search">
+		    </form>
+                </div>
+            </div>
+            <div id="bookmarks_container">
+                <div class="bookmark"><a href="https://github.com">Github</a></div>
+                <div class="bookmark"><a href="https://youtube.com">Youtube</a></div>
+                <div class="bookmark"><a href="https://gmail.com">E-mail</a></div>
+                <div class="bookmark"><a href="https://reddit.com">Reddit</a></div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
