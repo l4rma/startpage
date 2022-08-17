@@ -1,7 +1,17 @@
 #+title: Custom Startpage
 #+author: Lars M
-This is a super small project just for fun. Making my own startpage for the web browser.
+This is a super small project just for fun. Making my own startpage for the web browser. Still a work in progress.. For now I've only implemented searching using the google-engine.
 
 Made with html, css and vanilla javascript.
 
 #+html: <p align="center"><img src="startpage.png" /></p>
+
+** Todo:
+- Make it possible to change search-engine
+- Make dynamic welcome message
+- Add more links?
+- RSS-feed widget?
+- Improve style: hover effects etc..
+
+** Note (New tab page)
+You need an extention to set custome new tab in firefox. And all of them need a URL starting with http or https, so there is not possible to set a local file as the new tab page as far as I know..
